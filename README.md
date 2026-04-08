@@ -34,22 +34,5 @@ SHAP (SHapley Additive exPlanations) answers: "How much did each feature push th
 
 🔴 Positive SHAP = pushed prediction toward this class
 🟢 Negative SHAP = pushed prediction away from this class
-🛠️ Tech Stack
-Tool	Role
-Streamlit	Web UI framework
-SHAP	Model explainability (TreeExplainer, LinearExplainer)
-scikit-learn	ML models + preprocessing
-pandas	Data handling
-matplotlib	Visualizations
-📂 Project Structure
-explainable-ai-dashboard/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
-💡 Sample Datasets to Try
-Iris — Built-in demo, multi-class classification
-Titanic — Survival prediction (numeric columns only)
-Heart Disease UCI — Binary classification
-Any Kaggle CSV — Works with most classification datasets
-📝 License
+
 MIT License — free to use, modify, and share.
